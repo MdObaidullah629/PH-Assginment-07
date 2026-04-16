@@ -1,6 +1,10 @@
-@import "tailwindcss";
+/* @import "tailwindcss";
+@plugin "daisyui";
 
 :root {
+  --primary-green: #1E3A2F;
+  --soft-bg: #FCFDFC;
+  --border-light: #F1F5F9;
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -8,19 +12,49 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-primary-green: var(--primary-green);
 }
 
 body {
-  background: var(--background);
+  background: var(--soft-bg);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter', system-ui, sans-serif;
+  scroll-behavior: smooth;
 }
+
+@layer components {
+  /* কার্ড স্টাইল */
+  .card-style {
+    @apply bg-white border border-gray-100 shadow-sm rounded-3xl transition-all duration-300;
+  }
+  .card-style:hover {
+    @apply shadow-md;
+  }
+
+  /* বাটন স্টাইল */
+  .btn-primary-keeper {
+    @apply bg-[#1E3A2F] text-white px-8 py-3 rounded-full font-bold transition-all;
+    display: inline-block;
+  }
+  .btn-primary-keeper:hover {
+    opacity: 0.9;
+  }
+  .btn-primary-keeper:active {
+    transform: scale(0.95);
+  }
+
+  /* হেডিং স্টাইল */
+  .heading-xl {
+    @apply text-4xl md:text-5xl font-extrabold tracking-tight text-[#1E3A2F];
+  }
+}
+
+/* অ্যানিমেশন */
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+} */

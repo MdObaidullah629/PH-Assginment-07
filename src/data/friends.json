@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "David Kim",
+    "picture": "/assets/David-Kim.png",
+    "email": "david.kim@example.com",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": ["work", "mentor"],
+    "bio": "Former colleague and a great mentor for career advice.",
+    "goal": 30,
+    "next_due_date": "2026-02-27"
+  },
+  {
+    "id": 2,
+    "name": "Emma Wilson",
+    "picture": "/assets/Emma.png",
+    "email": "emma.wilson@design.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["college", "friend"],
+    "bio": "Creative designer and a close college friend who loves hiking.",
+    "goal": 14,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 3,
+    "name": "Alex Rivera",
+    "picture": "/assets/Alex.png",
+    "email": "alex.rivera@tech.com",
+    "days_since_contact": 20,
+    "status": "almost due",
+    "tags": ["tech", "gaming"],
+    "bio": "Gaming buddy and fellow software engineer.",
+    "goal": 21,
+    "next_due_date": "2026-04-16"
+  },
+  {
+    "id": 4,
+    "name": "Sarah Chen",
+    "picture": "/assets/Sarah.png",
+    "email": "sarah.chen@uni.edu",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["research", "scholar"],
+    "bio": "Brilliant researcher helping me with my thesis work.",
+    "goal": 30,
+    "next_due_date": "2026-03-15"
+  },
+  {
+    "id": 5,
+    "name": "Michael Brown",
+    "picture": "/assets/Micael.png",
+    "email": "michael.b@gym.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["fitness", "gym"],
+    "bio": "My gym partner who keeps me motivated every day.",
+    "goal": 7,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 6,
+    "name": "Lina Ahmed",
+    "picture": "/assets/Lina.png",
+    "email": "lina.a@creatives.com",
+    "days_since_contact": 12,
+    "status": "on-track",
+    "tags": ["art", "travel"],
+    "bio": "An amazing artist I met during my last Europe trip.",
+    "goal": 60,
+    "next_due_date": "2026-06-01"
+  },
+  {
+    "id": 7,
+    "name": "Jason Todd",
+    "picture": "/assets/Jason.png",
+    "email": "jason.t@startup.io",
+    "days_since_contact": 35,
+    "status": "overdue",
+    "tags": ["startup", "founder"],
+    "bio": "Entrepreneur friend with great insights on product design.",
+    "goal": 15,
+    "next_due_date": "2026-03-25"
+  },
+  {
+    "id": 8,
+    "name": "Priya Das",
+    "picture": "/assets/Priya.png",
+    "email": "priya.das@media.com",
+    "days_since_contact": 8,
+    "status": "on-track",
+    "tags": ["journalism", "news"],
+    "bio": "High school friend now working as a top journalist.",
+    "goal": 30,
+    "next_due_date": "2026-05-07"
+  },
+  {
+    "id": 9,
+    "name": "Robert Fox",
+    "picture": "/assets/Fox.png",
+    "email": "robert.fox@finance.com",
+    "days_since_contact": 25,
+    "status": "almost due",
+    "tags": ["investing", "mentor"],
+    "bio": "Financial advisor and long-time family friend.",
+    "goal": 28,
+    "next_due_date": "2026-04-18"
+  },
+  {
+    "id": 10,
+    "name": "Tanvir Islam",
+    "picture": "/assets/Tanvir.png",
+    "email": "tanvir.islam@cse.edu",
+    "days_since_contact": 1,
+    "status": "on-track",
+    "tags": ["CSE", "coding"],
+    "bio": "My lab partner and best friend from the university.",
+    "goal": 3,
+    "next_due_date": "2026-04-17"
+  }
+]
