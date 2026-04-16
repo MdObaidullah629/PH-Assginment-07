@@ -1,27 +1,28 @@
-# 👥 KeenKeeper — Keep Your Friendships Alive
+# 🤝 Friends Keeper
 
-KeenKeeper is a personalized friendship management dashboard designed to help users maintain meaningful connections. It tracks interactions, reminds you when it's time to reach out, and provides analytics on your social habits.
+Friends Keeper is a minimalist and efficient personal relationship management platform. It helps users stay connected with the people who matter most by tracking contact frequency and organizing meaningful connections in one place.
 
-## 🚀 Live Demo
-[Your Vercel Link Here]
+---
 
-## ✨ Features
-- **Dynamic Dashboard:** Real-time stats and friendship status overview.
-- **Friend Profiles:** Detailed view of each friend with interaction history.
-- **Quick Check-in:** Log calls, texts, or video chats with a single click.
-- **Smart Timeline:** A historical log of all your social interactions with filtering.
-- **Analytics:** Data visualization using Recharts to see interaction trends.
-- **Fully Responsive:** Optimized for Mobile, Tablet, and Desktop.
+## 🚀 Technologies Used
 
-## 🛠️ Technologies Used
-- **React.js / Next.js** (App Router)
-- **Tailwind CSS** & **Lucide React** (Styling & Icons)
-- **Context API** (State Management)
-- **Recharts** (Data Visualization)
-- **React Toastify** (Notifications)
+This project is built using modern web development tools to ensure a smooth and responsive experience:
 
-## 📦 Installation & Setup
-1. Clone the repository: `git clone [your-repo-link]`
-2. Install dependencies: `npm install`
-3. Run the development server: `npm run dev`
-4. Open `http://localhost:3000` in your browser.
+- **Next.js 14** - React framework for Server-Side Rendering and routing.
+- **Tailwind CSS** - For modern, utility-first styling and responsive design.
+- **React Hooks** - Efficient state management and component lifecycle handling.
+- **JSON Data** - Used as a local data source for managing friend information.
+- **Lucide React** - For clean and consistent iconography.
+
+---
+
+## ✨ Key Features
+
+### 1. Visual Relationship Tracking
+Keep track of how long it has been since your last contact. Each friend card features a dynamic status badge (Overdue, Almost Due, or On-Track) that changes color based on your interaction frequency, ensuring no important relationship is neglected.
+
+### 2. Figma-to-Code Design Implementation
+The UI is meticulously crafted based on high-fidelity Figma designs. It features custom-styled bento-style cards, circular profile imagery, and a clean, accessible layout that provides a premium user experience.
+
+### 3. Dynamic Interaction History
+Clicking on any friend card takes you to a dedicated details page. Here, you can view a personalized timeline of your past interactions, including calls, texts, and meetings, helping you remember the context of your last conversation.
